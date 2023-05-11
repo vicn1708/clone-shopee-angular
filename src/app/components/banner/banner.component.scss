@@ -1,0 +1,71 @@
+.wrapper-banner-home {
+  height: 380px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0.1px 0 gray;
+
+  .container {
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+
+    .banner-home {
+      height: 235px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 0.5rem;
+      overflow: hidden;
+
+      .banner {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .side-cover {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 0.5rem;
+        overflow: hidden;
+
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+
+    .categories-header {
+      height: max-content;
+      margin-top: 0.5rem;
+
+      .category {
+        width: 150px;
+        height: 108px;
+      }
+    }
+  }
+}
